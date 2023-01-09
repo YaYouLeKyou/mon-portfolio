@@ -1,223 +1,212 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Contact</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
 
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-<script src="https://use.fontawesome.com/20ab91acc4.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./css/contact.css">
+  <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./css/contact.css">
 
 </head>
+
 <body>
   <div id="cursor">
-      <div class="cursor--inner"></div>
+    <div class="cursor--inner"></div>
+  </div>
+  <!-- <canvas id="bg"></canvas> -->
+  <div id="side-bar">
+    <div class="toggle-btn" id="toggle-btn">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-    <!-- <canvas id="bg"></canvas> -->
-    <div id="side-bar">
-      <div class="toggle-btn" id="toggle-btn">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
 
+    <ul>
       <ul>
-        <ul>
-          <li class="active">
-            <a href="./index.html"
-              >About
-            </a>
-          </li>
-          <li><a href="./projects.html" title="">Projects</a></li>
-          <!-- <li><a href="./projects.html" title="">Gallery</a></li> -->
-          <li>
-            <a
-              href="https://yayoulekyou.github.io/game-menu-v2/index.html"
-              title=""
-              >Games</a
-            >
-          </li>
-          <li><a href="" title="">Contact</a></li>
-        </ul>
+        <li class="active">
+          <a href="./index.html">About
+          </a>
+        </li>
+        <li><a href="./projects.html" title="">Projects</a></li>
+        <!-- <li><a href="./projects.html" title="">Gallery</a></li> -->
+        <li>
+          <a href="https://yayoulekyou.github.io/game-menu-v2/index.html" title="">Games</a>
+        </li>
+        <li><a href="" title="">Contact</a></li>
       </ul>
-    </div>
-<!-- partial:index.partial.html -->
-<section id="contact">
-  
-  <h1 class="section-header">Contact</h1>
-  
-  <div class="contact-wrapper">
-  
-  <!-- Left contact page --> 
-    
-   <div class="container">
-      <div class="row">
-        <div class="col align-self-center">
-          <h1 class="text-center">Contact-form</h1>
-          <!-- contact form -->
-          <form id="myForm">
-            <!-- name -->
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                name="name"
-                class="form-control"
-                id="name"
-                placeholder="enter your name"
-                value="" required
-              />
-            </div>
+    </ul>
+  </div>
+  <!-- partial:index.partial.html -->
+  <section id="contact">
 
-            <!-- email -->
-            <div class="form-group">
-              <label for="email">Email address</label>
-              <input
-                type="email"
-                name="email"
-                class="form-control"
-                id="email"
-                placeholder="enter your email"
-               value="" required
-              />
-            </div>
+    <h1 class="section-header">Contact</h1>
+    <a href="/doc/cv.pdf" class="btn btn-download">Télécharger mon CV</a>
 
-            <!-- subject -->
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input
-                type="text"
-                name="subject"
-                class="form-control"
-                id="subject"
-                placeholder="enter email subject"
-              />
-            </div>
+    <div class="contact-wrapper">
 
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5"></textarea>
-            </div>
+      <!-- Left contact page -->
 
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center">
+            <h1 class="text-center">Contact-form</h1>
+            <!-- contact form -->
+            <form id="myForm">
+              <!-- name -->
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="enter your name" value=""
+                  required />
+              </div>
+
+              <!-- email -->
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="enter your email" value=""
+                  required />
+              </div>
+
+              <!-- subject -->
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" class="form-control" id="subject" placeholder="enter email subject" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-    
-  <!-- Left contact page --> 
-    
+
+      <!-- Left contact page -->
+
       <div class="direct-contact-container">
 
         <ul class="contact-list">
-          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Paris, France</span></i></li>
-          
-          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">0661184849</a></span></i></li>
-          
-          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">yanes75@hotmail.fr</a></span></i></li>
-          
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Paris,
+                France</span></i></li>
+
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                  href="tel:1-212-555-5555" title="Give me a call">0661184849</a></span></i></li>
+
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#"
+                  title="Send me an email">yanes75@hotmail.fr</a></span></i></li>
+
         </ul>
 
         <hr>
         <ul class="social-media-list">
           <li><a href="https://github.com/YaYouLeKyou" target="_blank" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
+              <i class="fa fa-github" aria-hidden="true"></i></a>
           </li>
           <li><a href="https://codepen.io/your-work" target="_blank" class="contact-icon">
-            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+              <i class="fa fa-codepen" aria-hidden="true"></i></a>
           </li>
           <li><a href="https://www.facebook.com/" target="_blank" class="contact-icon">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           </li>
           <li><a href="https://www.linkedin.com/in/yann-hadiouche-00b7ab114/" target="_blank" class="contact-icon">
-            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          </li>       
+              <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
         </ul>
         <hr>
 
         <div class="copyright">&copy;copyright yayou 2021</div>
 
       </div>
-    
-  </div>
+
+    </div>
     <div class="certif">
-    <a href="./doc/Certification Data-visualisation.pdf" target="_blank" class="contact-icon">Certification Data-visualisation</a>
-    <a href="./doc/Certification Front end development libraries .pdf" target="_blank" class="contact-icon">Certification Front end development libraries</a>
-    <a href="./doc/Certification Algorithmes javascript et structures de données.pdf" target="_blank" class="contact-icon">Certification Algorithmes javascript et structures de données</a>
-    <a href="./doc/Certification Responsive web designfreeCodeCamp org.pdf" target="_blank" class="contact-icon">Certification Responsive web designfreeCodeCamp</a>
-    <a href="./doc/Certification Fondamentaux du marketing numérique.pdf" target="_blank" class="contact-icon">Certification Fondamentaux du marketing numérique</a>
-  </div>
-  <div class="icons-stack1">
-    <img src="./icons/Adobe_Photoshop_CC_icon.svg.png" width="50px" />
-    <img src="./icons/Adobe_Illustrator_CC_icon.svg.png" width="50px" />
-    <img src="./icons/After_effect.png" width="50px" />
-    
-    <img src="./icons/CSS3_logo_and_wordmark.svg.png" width="50px" />
-   <img src="./icons/js-logo.png" width="50px" /></div>
+      <a href="./doc/Certification Data-visualisation.pdf" target="_blank" class="contact-icon">Certification
+        Data-visualisation</a>
+      <a href="./doc/Certification Front end development libraries .pdf" target="_blank"
+        class="contact-icon">Certification Front end development libraries</a>
+      <a href="./doc/Certification Algorithmes javascript et structures de données.pdf" target="_blank"
+        class="contact-icon">Certification Algorithmes javascript et structures de données</a>
+      <a href="./doc/Certification Responsive web designfreeCodeCamp org.pdf" target="_blank"
+        class="contact-icon">Certification Responsive web designfreeCodeCamp</a>
+      <a href="./doc/Certification Fondamentaux du marketing numérique.pdf" target="_blank"
+        class="contact-icon">Certification Fondamentaux du marketing numérique</a>
+    </div>
+    <div class="icons-stack1">
+      <img src="./icons/Adobe_Photoshop_CC_icon.svg.png" width="50px" />
+      <img src="./icons/Adobe_Illustrator_CC_icon.svg.png" width="50px" />
+      <img src="./icons/After_effect.png" width="50px" />
+
+      <img src="./icons/CSS3_logo_and_wordmark.svg.png" width="50px" />
+      <img src="./icons/js-logo.png" width="50px" /></div>
     <div class="icons-stack2">
-    <img src="./icons/react-logo.png" width="50px" />
-    <img src="./icons/react-redux.png" width="50px" />
-    <img src="./icons/mangoose.jpg" width="50px" />
-    <img src="./icons/mongodb-logo.jpg" width="50px" />
-    <img src="./icons/aol-png.png" width="50px" /></div>
-     <div class="icons-stack3">
+      <img src="./icons/react-logo.png" width="50px" />
+      <img src="./icons/react-redux.png" width="50px" />
+      <img src="./icons/mangoose.jpg" width="50px" />
+      <img src="./icons/mongodb-logo.jpg" width="50px" />
+      <img src="./icons/aol-png.png" width="50px" /></div>
+    <div class="icons-stack3">
       <img src="./icons/three.png" width="50px" />
-    <img src="./icons/Blender-Logo.png" width="50px" />
-    <img src="./icons/chartjs-tutsplus.jpg" width="50px" />
-    <img src="./icons/commerce.js.jpg" width="50px" />
-    <img src="./icons/curtains-js-logo.jpg" width="50px" /></div>
-     <div class="icons-stack4">
-    <img src="./icons/gsap3.png" width="50px" />
-    <img src="./icons/loco.jpg" width="50px" />
-    <img src="./icons/matter.png" width="50px" />
-    <img src="./icons/scrolltrigger-thumb.png" width="50px" />
-    <img src="./icons/Stripe-Symbole.jpg" width="50px" />
-  
-  </div>
-</section>
-   <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("user_VJ3XRY0fMU3HZ1FdrfQ9D");
-      })();
-    </script>
-    <script>
-      // listen to the form submission
-      document
-        .getElementById("myForm")
-        .addEventListener("submit", function (event) {
-          event.preventDefault();
+      <img src="./icons/Blender-Logo.png" width="50px" />
+      <img src="./icons/chartjs-tutsplus.jpg" width="50px" />
+      <img src="./icons/commerce.js.jpg" width="50px" />
+      <img src="./icons/curtains-js-logo.jpg" width="50px" /></div>
+    <div class="icons-stack4">
+      <img src="./icons/gsap3.png" width="50px" />
+      <img src="./icons/loco.jpg" width="50px" />
+      <img src="./icons/matter.png" width="50px" />
+      <img src="./icons/scrolltrigger-thumb.png" width="50px" />
+      <img src="./icons/Stripe-Symbole.jpg" width="50px" />
 
-          const serviceID = "service_y2b3s3q";
-          const templateID = "template_jitc8ii";
+    </div>
+  </section>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_VJ3XRY0fMU3HZ1FdrfQ9D");
+    })();
+  </script>
+  <script>
+    // listen to the form submission
+    document
+      .getElementById("myForm")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
 
-          // send the email here
-          emailjs.sendForm(serviceID, templateID, this).then(
-            (response) => {
-              console.log("SUCCESS!", response.status, response.text);
-              alert("SUCCESS!");
-            },
-            (error) => {
-              console.log("FAILED...", error);
-              alert("FAILED...", error);
-            }
-          );
-        });
-    </script>
-<!-- partial -->
+        const serviceID = "service_y2b3s3q";
+        const templateID = "template_jitc8ii";
+
+        // send the email here
+        emailjs.sendForm(serviceID, templateID, this).then(
+          (response) => {
+            console.log("SUCCESS!", response.status, response.text);
+            alert("SUCCESS!");
+          },
+          (error) => {
+            console.log("FAILED...", error);
+            alert("FAILED...", error);
+          }
+        );
+      });
+  </script>
+  <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="./js/contact.js"></script>
-<script src="./js/sidebar.js"></script>
-<script src="./js/cursor.js"></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script src="./js/contact.js"></script>
+  <script src="./js/sidebar.js"></script>
+  <script src="./js/cursor.js"></script>
 </body>
+
 </html>
