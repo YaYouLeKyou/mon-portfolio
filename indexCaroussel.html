@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/styleCar.css" />
+    <title>Menu</title>
+  </head>
+
+  <body id="hide">
+     <div class="instruction"><< Keep pressing on click and move mouse left and right >></div>
+     <div id="cursor">
+  <div class="cursor--inner"></div>
+</div>
+
+    <div id="side-bar">
+      <div class="toggle-btn" id="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul>
+        <ul>
+          <li class="active">
+            <a  onclick="JavaScript:setTimeout(window.location.href = './index.html',1000),myFunction()"
+              >About
+            </a>
+          </li>
+          <li><a href="./projects.html" title="">Projects</a></li>
+          <li><a href="./gallery.html" title="">Gallery</a></li>
+          <li>
+            <a
+              href="https://yayoulekyou.github.io/game-menu-v2/index.html"
+              title=""
+              >Games</a
+            >
+          </li>
+          <li><a href="./contact.html" title="">Contact</a></li>
+        </ul>
+      </ul>
+    </div>
+    <div id="drag-container">
+      <div id="spin-container">
+        <!-- Add your images (or video) here -->
+        <img id="project1" onmouseover="mouseOver()" onmouseleave="mouseOut()"
+          onClick="myFunction2(); setTimeout(loadUrl3,1000)"
+          role="button"
+          tabindex="0"
+          src="./images/yza.jpg"
+          alt=""
+        />
+
+        <img id="project2" onmouseover="mouseOver2()" onmouseleave="mouseOut2()"
+          onClick="myFunction2(); setTimeout(loadUrl5,1000)"
+          role="button"
+          tabindex="0"
+          src="./images/react-movies.png"
+          alt=""
+        />
+
+        <img id="project3" onmouseover="mouseOver3()" onmouseleave="mouseOut3()"
+          onClick="myFunction2(); setTimeout(loadUrl4,1000)"
+          role="button"
+          tabindex="0"
+          src="./images/crypto-react.png"
+          alt=""
+        />
+        <img id="project4"  onClick="myFunction2(); setTimeout(loadUrl8,1000)" onmouseover="mouseOver4()"  onmouseleave="mouseOut4()" src="./images/e-shop.png" />
+
+        <img id="project5"  onClick="myFunction2(); setTimeout(loadUrl6,1000)" onmouseover="mouseOver5()" onmouseleave="mouseOut5()" src="./images/abc.jpg" alt="" />
+        <img id="project6" onmouseover="mouseOver6()"  onmouseleave="mouseOut6()"
+          onClick="myFunction2(); setTimeout(loadUrl9,1000)"
+          src="./images/gericht.png"
+          role="button"
+          tabindex="0"
+          alt=""
+        />
+        <!-- <img
+          onClick="window.open('https://yayoulekyou.github.io/drunkin-alien/')"
+          role="button"
+          tabindex="0"
+          src="./images/drunkin-alien.png"
+          alt=""
+        /> -->
+        <img id="project7"  onClick="myFunction2(); setTimeout(loadUrl7,1000)" onmouseover="mouseOver7()"  onmouseleave="mouseOut7()" src="./images/photo-cv.png" alt="" />
+
+        <!-- Example image with link -->
+        <!-- <a
+          target="_blank"
+          href="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg"
+        >
+          <img
+            src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+        </a> -->
+
+        <!-- Example add video  -->
+        <!-- <video controls autoplay="autoplay" loop>
+          <source
+            src="https://player.vimeo.com/external/322244668.sd.mp4?s=338c48ac2dfcb1d4c0689968b5baf94eee6ca0c1&profile_id=165&oauth2_token_id=57447761"
+            type="video/mp4"
+          />
+        </video> -->
+
+        <!-- Text at center of ground -->
+        <!-- <p>3D Tiktok Carousel</p> -->
+      </div>
+      
+      <div id="ground"></div>
+      
+    </div>
+
+
+
+
+    <!-- *************small width***************************** -->
+    
+    
+    <section class="mobile"> 
+        
+     <div class="wrapper">
+  <h2>My work</h2>
+  <div class="cols">
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(./images/yayou.png)">
+						<div class="inner">
+							<p>Yayou</p>
+              <span>Developer front-end web & mobile</span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+						  <p>My favorite technologies ares css, javascript, react and node.js and differents librarys. </p>
+               <input
+                    type="button"
+                    onClick="location.href='https://github.com/YaYouLeKyou'"
+                    value="click here"
+                  />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image:url(./images/e-shop.png); background-size: cover;">
+						<div class="inner">
+							<p>My shop</p>
+              <span></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>A fully fonctional Javascript e-commerce build in React with commerce.js and stripe</p>
+               <input
+                    type="button"
+                    onClick="location.href='https://my-e-shop-by-yayou.netlify.app'"
+                    value="click here"
+                  />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(./images/abc.jpg)">
+						<div class="inner">
+							<p>ABC Architecture</p>
+              <span></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>A showcase website using differents librarys like Greensocks, LocomotiveScroll.</p>
+              <input
+                    type="button"
+                    onClick="location.href='https://yayoulekyou.github.io/abc-0.91/'"
+                    value="click here"
+                  />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(./images/yza.jpg)">
+						<div class="inner">
+							<p>YZA</p>
+              <span></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>A shocase Website with a musics and videos players, using LocomotiveScroll library.</p>
+              <input
+                    type="button"
+                    onClick="location.href='https://yayoulekyou.github.io/yza-0.91/'"
+                    value="click here"
+                  />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(./images/whatwatch.png)">
+						<div class="inner">
+							<p>Crypto-react</p>
+              <span></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>A React applicatione about cryptocurrency, using a Data-base and chart.js for visualize court, volume, price and marketcap in real time.</p>
+               <input
+                    type="button"
+                    onClick="location.href='https://yayoulekyou.github.io/pwa-app-mobile-film/'"
+                    value="click here"
+                  />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(./images/gericht.png)">
+						<div class="inner">
+							<p>Gericht</p>
+              <span></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>A showcase website build with react</p>
+              <input
+                    type="button"
+                    onClick="location.href='https://gericht-by-yayou.netlify.app/'"
+                    value="click here"
+                  />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(https://unsplash.it/506/506/)">
+						<div class="inner">
+							<p>Acirassi</p>
+              <span>Lorem ipsum</span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div class="front" style="background-image: url(https://unsplash.it/508/508/)">
+						<div class="inner">
+							<p>Sohanidd</p>
+              <span>Lorem ipsum</span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+ </div> -->
+ 
+    </section>
+   
+   
+
+
+    <!-- ****************screens******************* -->
+
+<div id="screen1" class="screen">  
+<section class="buttonGroup">
+  
+  <h2>YZA</h2>
+     <section class="setButtons">
+    <button value="1" class="active2">html</button>
+    <button value="2" class="active2">css</button>
+    <button value="3" class="active2">javascript</button>
+    <button value="4"></button>
+    <button value="x"></button>
+    <!-- <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button> -->
+  </section>
+  <!-- <div class="visual1">
+  </div> -->
+  
+  <div class="visual2">
+ 
+  
+ 
+  
+  <section>
+   <p>A shocase Website with a musics and videos players, using LocomotiveScroll library with differents scrolling effects.
+<hr />     
+</p>
+  </section>
+</section>
+  
+    </div>
+</div>
+
+
+    <div id="screen2"" class="screen">  
+<section class="buttonGroup">
+  
+  <h2>API & Librarys</h2>
+     <section class="setButtons">
+    <button value="1" class="active2">html</button>
+    <button value="2" class="active2">css</button>
+    <button value="3" class="active2">javascript</button>
+    <button value="4" class="active2">react</button>
+    <button value="x" class="active2">node.js</button>
+    <!-- <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button> -->
+  </section>
+  <!-- <div class="visual1">
+  </div> -->
+  
+  <div class="visual2">
+ 
+  
+ 
+  
+  <section>
+   <p>A selection of my applications using Data-bases, building charts, graphs, and maps to present differents types of data with the D3.js library. Fetching somes data to present it in cards...
+<hr />     
+</p>
+  </section>
+</section>
+  
+    </div>
+</div>
+    <div id="screen3" class="screen">  
+<section class="buttonGroup">
+  
+  <h2>Crypto-react</h2>
+     <section class="setButtons">
+    <button value="1" class="active2">html</button>
+    <button value="2" class="active2">css</button>
+    <button value="3" class="active2">javascript</button>
+    <button value="4" class="active2">react</button>
+    <button value="x" class="active2">node.js</button>
+    <!-- <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button> -->
+  </section>
+  <!-- <div class="visual1">
+  </div> -->
+  
+  <div class="visual2">
+ 
+  
+ 
+  
+  <section>
+   <p>A React applicatione about cryptocurrency, using a Data-base and chart.js for visualize court, volume, price and marketcap in real time.  
+<hr />     
+</p>
+  </section>
+</section>
+  
+    </div>
+</div>
+    <div id="screen4" class="screen">  
+<section class="buttonGroup">
+  
+  <h2>My Shop</h2>
+     <section class="setButtons">
+    <button value="1" class="active2">html</button>
+    <button value="2" class="active2">css</button>
+    <button value="3" class="active2">javascript</button>
+    <button value="4" class="active2">react</button>
+    <button value="x" class="active2">node.js</button>
+    <!-- <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button> -->
+  </section>
+  <!-- <div class="visual1">
+  </div> -->
+  
+  <div class="visual2">
+ 
+  
+ 
+  
+  <section>
+   <p>A fully fonctional Javascript e-commerce build in React with commerce.js and stripe, with items list, checkout and credit card payment. 
+<hr />     
+</p>
+  </section>
+</section>
+  
+    </div>
+</div>
+    <div id="screen5" class="screen">  
+<section class="buttonGroup">
+  
+  <h2>ABC Architecture</h2>
+     <section class="setButtons">
+    <button value="1" class="active2">html</button>
+    <button value="2" class="active2">css</button>
+    <button value="3" class="active2">javascript</button>
+    <button value="4"></button>
+    <button value="x"></button>
+    <!-- <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button> -->
+  </section>
+  <!-- <div class="visual1">
+  </div> -->
+  
+  <div class="visual2">
+ 
+  
+ 
+  
+  <section>
+   <p>A showcase website using differents librarys like Greensocks, LocomotiveScroll, with a preloader, navigation and transitions effects.
+<hr />     
+</p>
+  </section>
+</section>
+  
+    </div>
+</div>
+    <div id="screen6" class="screen">  
+<section class="buttonGroup">
+  
+  <h2>Gericht</h2>
+     <section class="setButtons">
+    <button value="1" class="active2">html</button>
+    <button value="2" class="active2">css</button>
+    <button value="3" class="active2">javascript</button>
+    <button value="4" class="active2">react</button>
+    <button value="x" class="active2">node.js</button>
+    <!-- <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button> -->
+  </section>
+  <!-- <div class="visual1">
+  </div> -->
+  
+  <div class="visual2">
+ 
+  
+ 
+  
+  <section>
+   <p>A showcase website for a restaurant build in React, with navbar, items list, login-form, gallery and video player/
+<hr />     
+</p>
+  </section>
+</section>
+  
+    </div>
+</div>
+    <div id="screen7" class="screen">  
+<section class="buttonGroup">
+  
+  <h2>About me</h2>
+     <section class="setButtons">
+    <button value="1" class="active2">html</button>
+    <button value="2" class="active2">css</button>
+    <button value="3" class="active2">javascript</button>
+    <button value="4" class="active2">react</button>
+    <button value="x" class="active2">node.js</button>
+    <!-- <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button>
+    <button value="x"></button> -->
+  </section>
+  <!-- <div class="visual1">
+  </div> -->
+  
+  <div class="visual2">
+ 
+  
+ 
+  
+  <section>
+   <p>Hello, i'm web Develloper web front-end and mobile. My favorite technologies ares css, javascript, react and node.js. I use differents librarys like D3, Chart.js, LocomotiveScroll, Greensocks, Three.js and more.
+<hr />     
+</p>
+  </section>
+</section>
+  
+    </div>
+</div>
+    <script src="./assets/jquery.min.js" type="text/javascript"></script>
+    <script>
+      function loadUrl() {
+        window.location.href = './index.html';
+      }
+    </script>
+    <script>
+      function loadUrl2() {
+        
+        window.location.href =
+          'https://yayoulekyou.github.io/game-menu-v2/index.html';
+      }
+    </script>
+    <script>
+      function loadUrl3() {
+        window.location.href = 'https://yayoulekyou.github.io/yza-0.91/';
+      }
+    </script>
+    <script>
+      function loadUrl4() {
+        window.location.href =
+          'https://crypto-react-chartjs.netlify.app/';
+      }
+    </script>
+    <script>
+      function loadUrl5() {
+        window.location.href = 'https://yayoulekyou.github.io/api-libraries2/';
+      }
+    </script>
+    <script>
+      function loadUrl6() {
+        window.location.href = 'https://abc-architecture.netlify.app';
+      }
+    </script>
+    <script>
+      function loadUrl7() {
+        window.location.href = 'https://github.com/YaYouLeKyou';
+      }
+    </script>
+    <script>
+      function loadUrl8() {
+        window.location.href = 'https://my-e-shop-by-yayou.netlify.app';
+      }
+    </script>
+    <script>
+      function loadUrl9() {
+        window.location.href = 'https://gericht-by-yayou.netlify.app/';
+      }
+    </script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById('hide');
+        if (x.style.visibility === 'visible') {
+          x.style.visibility = 'visible';
+        } else {
+          x.style.visibility = 'hidden';
+          x.style.transition = '0.6s';
+          x.style.opacity = 0.1;
+          x.style.transform = 'scale(0.1)';
+        }
+      }
+    </script>
+    <script>
+      function myFunction2() {
+        var x = document.getElementById('hide');
+        if (x.style.visibility === 'visible') {
+          x.style.visibility = 'visible';
+        } else {
+          x.style.visibility = 'hidden';
+          x.style.transition = '0.8s';
+          x.style.opacity = 0.1;
+          x.style.transform = 'scale(2) translateY(100px)';
+        }
+      }
+    </script>
+    <script src="./js/mouseEffect.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/scriptCar.js"></script>
+    <script src="./js/stars.js"></script>
+     <script src="./js/galaxy.js"></script>
+     <!-- <script src="./js/cursor.js"></script> -->
+
+  </body>
+</html>

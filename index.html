@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./c">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link href="https://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
+  <title>Yayou Website</title>
+  <!-- locomotive scroll init-->
+  <script>
+    const scroller = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true
+    });
+  </script>
+  <!-- AOS init -->
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144274538-1');
+  </script>
+</head>
+
+<body class="custom-cursor-invader">
+  <!-- <div id="cursor">
+    <div class="cursor--inner"></div>
+  </div> -->
+  <canvas id="bg"></canvas>
+
+
+  <main>
+    <div id="side-bar">
+      <div class="toggle-btn" id="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+
+      <!-- <li class="active">
+            <a href="JavaScript:setTimeout(loadUrl,1000)" onclick="myFunction()"
+              >About
+            </a>
+          </li> -->
+      <a href="./projects.html" title="">Projects</a>
+
+
+    </div>
+
+    <header class="center">
+
+
+      <!-- <h1>Developer web</h1> -->
+
+      <!--Loader-->
+      <div class="loader">
+        <div class="loader__circle"></div>
+      </div>
+
+      <div id="accueil">
+        <h1 class="aliens" style="z-index: 1000;">
+          <span>H</span>
+          <span>E</span>
+          <span>L</span>
+          <span>L</span>
+          <span>O</span>
+          <!-- <span>S</span> -->
+        </h1>
+        <div class="typing-animation">
+          <span id="quote"></span>
+        </div>
+
+        <div class="arrows"><i id="up" class="fas fa-angle-double-up"></i>
+          <p id="scroll-text">Scroll</p>
+
+          <i id="down" class="fas fa-angle-double-down"></i>
+        </div>
+      </div>
+
+      <div class="wow">
+        <ul id="wow"></ul>
+        <li id="one"><a>Welcome</a></li>
+        <!-- <li id="two"><a>in my metaverse</a></li>
+    <li id="three"><a>i am developer web</a></li>
+    <li id="four"><a href="https://github.com/YaYouLeKyou"><span>follow me<br>on git-hub<span></a></li> -->
+        </ul>
+      </div>
+    </header>
+
+
+
+
+
+    <section class="cd-section1">
+      <!-- background on css => .text-img p -->
+      <div class="text-img">
+        <p>Ground Control to Major Tom
+          Ground Control to Major Tom
+          Take your protein pills and put your helmet on
+          Ground Control to Major Tom (ten, nine, eight, seven, six)
+          Commencing countdown, engines on (five, four, three)
+          Check ignition and may God's love be with you (two, one, liftoff)
+          This is Ground Control to Major Tom
+          You've really made the grade
+          And the papers want to know whose shirts you wear
+          Now it's time to leave the capsule if you dare
+          "This is Major Tom to Ground Control
+          I'm stepping through the door
+          And I'm floating in a most peculiar way
+          And the stars look very different today
+          For here
+          Am I sitting in a tin can
+          Far above the world
+          Planet Earth is blue
+          And there's nothing I can do
+          Though I'm past one hundred thousand miles
+          I'm feeling very still
+          And I think my spaceship knows which way to go
+          Tell my wife I love her very much she knows
+          Ground Control to Major Tom
+          Your circuit's dead, there's something wrong
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you "Here am I floating 'round my tin can
+          Far above the moon
+          Planet Earth is blue
+          And there's nothing I can doGround Control to Major Tom
+          Ground Control to Major Tom
+          Take your protein pills and put your helmet on
+          Ground Control to Major Tom (ten, nine, eight, seven, six)
+          Commencing countdown, engines on (five, four, three)
+          Check ignition and may God's love be with you (two, one, liftoff)
+          This is Ground Control to Major Tom
+          You've really made the grade
+          And the papers want to know whose shirts you wear
+          Now it's time to leave the capsule if you dare
+          "This is Major Tom to Ground Control
+          I'm stepping through the door
+          And I'm floating in a most peculiar way
+          And the stars look very different today
+          For here
+          Am I sitting in a tin can
+          Far above the world
+          Planet Earth is blue
+          And there's nothing I can do
+          Though I'm past one hundred thousand miles
+          I'm feeling very still
+          And I think my spaceship knows which way to go
+          Tell my wife I love her very much she knows
+          Ground Control to Major Tom
+          Your circuit's dead, there's something wrong
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you "Here am I floating 'round my tin can
+          Far above the moon
+          Planet Earth is blue
+          And there's nothing I can doGround Control to Major Tom
+          Ground Control to Major Tom
+          Take your protein pills and put your helmet on
+          Ground Control to Major Tom (ten, nine, eight, seven, six)
+          Commencing countdown, engines on (five, four, three)
+          Check ignition and may God's love be with you (two, one, liftoff)
+          This is Ground Control to Major Tom
+          You've really made the grade
+          And the papers want to know whose shirts you wear
+          Now it's time to leave the capsule if you dare
+          "This is Major Tom to Ground Control
+          I'm stepping through the door
+          And I'm floating in a most peculiar way
+          And the stars look very different today
+          For here
+          Am I sitting in a tin can
+          Far above the world
+          Planet Earth is blue
+          And there's nothing I can do
+          Though I'm past one hundred thousand miles
+          I'm feeling very still
+          And I think my spaceship knows which way to go
+          Tell my wife I love her very much she knows
+          Ground Control to Major Tom
+          Your circuit's dead, there's something wrong
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you "Here am I floating 'round my tin can
+          Far above the moon
+          Planet Earth is blue
+          And there's nothing I can doGround Control to Major Tom
+          Ground Control to Major Tom
+          Take your protein pills and put your helmet on
+          Ground Control to Major Tom (ten, nine, eight, seven, six)
+          Commencing countdown, engines on (five, four, three)
+          Check ignition and may God's love be with you (two, one, liftoff)
+          This is Ground Control to Major Tom
+          You've really made the grade
+          And the papers want to know whose shirts you wear
+          Now it's time to leave the capsule if you dare
+          "This is Major Tom to Ground Control
+          I'm stepping through the door
+          And I'm floating in a most peculiar way
+          And the stars look very different today
+          For here
+          Am I sitting in a tin can
+          Far above the world
+          Planet Earth is blue
+          And there's nothing I can do
+          Though I'm past one hundred thousand miles
+          I'm feeling very still
+          And I think my spaceship knows which way to go
+          Tell my wife I love her very much she knows
+          Ground Control to Major Tom
+          Your circuit's dead, there's something wrong
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you "Here am I floating 'round my tin can
+          Far above the moon
+          Planet Earth is blue
+          And there's nothing I can doGround Control to Major Tom
+          Ground Control to Major Tom
+          Take your protein pills and put your helmet on
+          Ground Control to Major Tom (ten, nine, eight, seven, six)
+          Commencing countdown, engines on (five, four, three)
+          Check ignition and may God's love be with you (two, one, liftoff)
+          This is Ground Control to Major Tom
+          You've really made the grade
+          And the papers want to know whose shirts you wear
+          Now it's time to leave the capsule if you dare
+          "This is Major Tom to Ground Control
+          I'm stepping through the door
+          And I'm floating in a most peculiar way
+          And the stars look very different today
+          For here
+          Am I sitting in a tin can
+          Far above the world
+          Planet Earth is blue
+          And there's nothing I can do
+          Though I'm past one hundred thousand miles
+          I'm feeling very still
+          And I think my spaceship knows which way to go
+          Tell my wife I love her very much she knows
+          Ground Control to Major Tom
+          Your circuit's dead, there's something wrong
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you hear me, Major Tom?
+          Can you "Here am I floating 'round my tin can
+          Far above the moon
+          Planet Earth is blue
+          And there's nothing I can do</p>
+      </div>
+    </section>
+
+
+    <section class="cd-section">
+      <div class="cd-block">
+        <div class="cd-half-block"></div>
+
+        <div class="cd-half-block">
+
+          <p>
+            Hello, i am developer front-end<br>web and mobile.<br>
+            My technologies are:
+            <br>
+            <i class="fas fa-spinner fa-pulse"></i> HTML 5
+            <i class="fab fa-html5"></i>
+            <br>
+            <i class="fas fa-spinner fa-pulse"></i> CSS
+            <i class="fab fa-css3-alt"></i> <br>
+            <i class="fas fa-spinner fa-pulse"></i> JavaScript
+            <i class="fab fa-js"></i> <br>
+            <i class="fas fa-spinner fa-pulse"></i> Node.js
+            <i class="fab fa-node"></i> <br>
+            <i class="fas fa-spinner fa-pulse"></i>
+            Vue.js
+            <i class="fab fa-vuejs"></i> <br>
+            <i class="fas fa-spinner fa-pulse"></i>
+            React
+            <i class="fab fa-react"></i> <br>
+            <i class="fas fa-spinner fa-pulse"></i>
+            PHP
+            <i class="fab fa-php"></i> <br>
+
+
+
+          </p>
+        </div>
+      </div>
+    </section> <!-- .cd-section -->
+
+    <section class="cd-section">
+      <div class="cd-block">
+        <div class="cd-half-block"></div>
+
+        <div class="cd-half-block">
+
+          <p>
+            <div class="p1">
+              Create inspired and design website
+              <br><br>
+              <i class="fas fa-spinner fa-pulse"></i>
+              UX/UI Design
+              <div class="icons-design">
+                <img src="./icons/Adobe_Photoshop_CC_icon.svg.png" width="80px" alt="photoshop-icon">
+                <img src="./icons/After_effect.png" width="80px" alt="after effect icon">
+                <img src="./icons/Adobe_Illustrator_CC_icon.svg.png" width="80px" alt="illustratot-icon">
+                <img src="./icons/artrage.png" width="80px" alt="artrage-icon">
+              </div>
+              <i class="fas fa-spinner fa-pulse"></i>
+              Librarys
+              <div class="librarys">
+                <img src="./icons/loco.jpg" width="135px" alt="loco-icon">
+                <img src="./icons/gsap3.png" width="135px" alt="gsap-icon">
+                <img src="./icons/scrolltrigger-thumb.png" width="135px" alt="scroll-trigger-icon">
+
+                <img src="./icons/chartjs-tutsplus.jpg" width="135pxpx" alt="chart-icon">
+                <img src="./icons/aol-png.png" width="80pxpx" alt="aol-icon">
+
+
+              </div>
+              <div class="3d">
+
+                <i class="fas fa-spinner fa-pulse"></i>
+                3D & modelisation<br>
+                <img src="./icons/three.png" width="135px" alt="threejs-icon">
+                <img src="./icons/Blender-Logo.png" width="135px" alt="illustratot-icon">
+                <img src="./icons/curtains-js-logo.jpg" width="135px" alt="curtain-icon">
+                <img src="./icons/matter.png" width="135pxpx" alt="matter-icon">
+
+
+
+
+
+              </div>
+            </div>
+
+          </p>
+        </div>
+
+      </div>
+      </div>
+      </div>
+    </section> <!-- .cd-section -->
+
+    <section class="cd-section">
+      <div class="cd-block">
+        <div class="cd-half-block"></div>
+
+        <div class="cd-half-block">
+          <p>
+            <div class="p1">
+
+              <br>
+              I'm freelance, contact me for your project web or mobile...<br>
+              For a best experience watch it on a laptop.<br>
+
+
+              Thank you for watching... <br><br>
+              <i class="fas fa-spinner fa-pulse"></i> Backend:<br><br>
+
+
+
+              <img src="./icons/react.png" width="100px" alt="aol-icon">
+              <img src="./icons/node.png" width="100px" alt="loco-icon">
+              <img src="./icons/react-redux.png" width="80px" alt="chart-icon"><br>
+              <img src="./icons/mongodb-logo.jpg" width="100px" alt="scroll-trigger-icon">
+              <img src="./icons/mysql.png" width="80px" alt="scroll-trigger-icon">
+
+
+
+
+
+
+
+          </p>
+        </div>
+      </div>
+
+    </section> <!-- .cd-section -->
+
+
+    <!-- <nav>
+		<ul class="cd-vertical-nav">
+			<li><a href="#0" class="cd-prev inactive">Next</a></li>
+			<li><a href="#0" class="cd-next">Prev</a></li>
+		</ul>
+    </nav> -->
+
+
+    <section class="cd-section1">
+      <!-- <div class="cd-block">
+			<h1>Thanks</h1>
+		</div> -->
+
+
+      <!-- <blockquote>
+        <p>I like making stuff and putting it on the internet</p>
+      </blockquote> -->
+
+      <blockquote class="watch">
+        <a onclick="JavaScript:setTimeout(loadUrl,4000),myFunction(),myFunction2(),myFunction3()">
+          <!-- <a href="./gallery.html"> -->
+          <div id="warp">
+            <p id="hide2" onclick="myFunction2(),myFunction3()">Watch my work</p>
+          </div>
+        </a>
+
+      </blockquote>
+      <div class="watch2" id="hide4">
+        <a href="./projects.html">
+          <!-- <a href="./gallery.html"> -->
+          <div id="warp">
+            <p onclick="myFunction2(),myFunction3()">Watch my work</p>
+          </div>
+        </a>
+
+      </div>
+      <div id="hide" class="container-carousel">
+        <div class="carousel">
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+          <div class="carousel__face"><span></span></div>
+        </div>
+      </div>
+
+      <div id="hide3" class="container-social">
+        <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin" id="apple"></i></a>
+        <a target="_blank" href="https://github.com/YaYouLeKyou"><i class="fa fa-github-square github"
+            id="github"></i></a>
+        <a target="_blank" href="https://codepen.io/your-work"><i class="fa fa-codepen" id="twitter"></i></a>
+        <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square" id="facebook"></i></a>
+      </div>
+
+      <canvas id="space"></canvas>
+
+    </section> <!-- .cd-section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <script src="./cursor.js"></script>
+  <script>
+    function loadUrl() {
+      window.location.href = "./gallery.html";
+    }
+  </script>
+  <script>
+    function loadUrl2() {
+      window.location.href = "./projects.html";
+    }
+  </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("hide");
+      if (x.style.visibility === "visible") {
+        x.style.visibility = "visible";
+
+      } else {
+        x.style.visibility = "hidden";
+        x.style.transition = "0.8s"
+        x.style.opacity = 0.1
+        x.style.transform = "scale(3) translateY(-100px)"
+
+      }
+    }
+  </script>
+  <script>
+    function myFunction2() {
+      var x2 = document.getElementById("hide2");
+      if (x2.style.visibility === "visible") {
+        x2.style.visibility = "visible";
+
+      } else {
+        x2.style.visibility = "hidden";
+        x2.style.transition = "0.8s"
+        x2.style.opacity = 0.1
+        x2.style.transform = "scale(3) translateX(-20%)"
+
+      }
+    }
+  </script>
+  <script>
+    function myFunction3() {
+      var x3 = document.getElementById("hide3");
+      if (x3.style.visibility === "visible") {
+        x3.style.visibility = "visible";
+
+      } else {
+        x3.style.visibility = "hidden";
+        x3.style.transition = "0.8s"
+        x3.style.opacity = 0.1
+        x3.style.transform = "scale(3) translateX(-20%)"
+
+      }
+    }
+  </script>
+
+
+  <script src="./js/galaxy.js"></script>
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js'></script>
+  <script src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script type="module" src="/js/main2.js"></script>
+  <script type="module" src="/js/loco.js"></script>
+  <script src="./js/stars.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/typing-anim.js"></script>
+  <!-- <script src="./js//cursor.js"></script> -->
+  <script src="./js/sidebar.js"></script>
+</body>
+
+</html>
