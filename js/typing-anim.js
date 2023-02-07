@@ -478,7 +478,7 @@
 
 $(function () {
   $('#quote').typed({
-    strings: ['I am Yanès Hadiouche Developer front-end'],
+    strings: ['I am Yanès Hadiouche Developer web front-end'],
     typeSpeed: 50,
   });
 });
