@@ -185,6 +185,7 @@ blockquote p {
   transform: translate(-50%);
   opacity: 0.5;
   filter: blur(0.2);
+
 }
 
 /* ***********#wow************* */
@@ -700,7 +701,7 @@ i {
   left: 50%;
   transform: translateX(-50%);
   bottom: 20%;
-
+  z-index: 10000;
 
 }
 
@@ -1311,4 +1312,56 @@ li #contact {
   /* .typing-animation #quote {
     font-size: 1.2rem;
   } */
+}
+
+@media (max-height: 650px) {
+  .aliens span {
+    font-size: 3rem !important;
+  }
+
+  #scroll-text {
+    font-size: 2rem;
+
+  }
+
+  #yayou {
+    width: 250px;
+    height: 300px;
+
+  }
+}
+
+@media (max-height: 460px) {
+  .aliens span {
+    font-size: 2rem !important;
+  }
+
+  #scroll-text {
+    visibility: hidden;
+
+  }
+
+  .typing-animation {
+    font-size: 1rem;
+  }
+}
+
+@media (max-height: 400px) {
+  .aliens span {
+    visibility: hidden;
+  }
+
+  #scroll-text {
+    visibility: hidden;
+
+  }
+
+  .typing-animation {
+    font-size: 1rem;
+  }
+
+  #yayou {
+    visibility: hidden;
+
+  }
 }
