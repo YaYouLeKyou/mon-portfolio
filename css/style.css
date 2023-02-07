@@ -828,7 +828,7 @@ i {
 #side-bar a {
   position: absolute;
   top: 6%;
-  left: 46%;
+  left: 48%;
   transform: translate(-50%, -50%);
   text-decoration: none;
   color: white;
@@ -920,7 +920,8 @@ li #contact {
 
 
 @media only screen and (max-height: 400px) {
-  #down {
+
+  #up {
     visibility: hidden;
   }
 
@@ -937,23 +938,21 @@ li #contact {
 
 }
 
-@media only screen and (max-height: 800px) {
-  /* #down {
-    visibility: hidden;
-  } */
-
-  /* #yayou {
-    width: 250px;
-    height: 300px;
-    margin-top: 90%;
-  } */
-
-
-}
-
 @media only screen and (max-width: 700px) {
+  .arrows {
+    top: 70%;
+  }
+
+  #quote {
+    font-size: 1.5rem !important;
+  }
+
   #down {
     visibility: hidden;
+  }
+
+  #up {
+    visibility: visible !important;
   }
 
   #yayou {
@@ -964,13 +963,15 @@ li #contact {
   }
 }
 
-@media only screen and (min-width: 700px) {
+
+
+
+@media only screen and (max-width: 1070px) {
+
   #up {
     visibility: hidden;
   }
-}
 
-@media only screen and (max-width: 1070px) {
   #cv-ordi {
     visibility: hidden
   }
@@ -981,6 +982,8 @@ li #contact {
 }
 
 @media only screen and (min-width: 1070px) {
+
+
   #cv-mobile {
     visibility: hidden;
   }
@@ -1076,6 +1079,10 @@ li #contact {
 }
 
 @media (max-width: 1570px) {
+  #up {
+    visibility: hidden;
+  }
+
   .cd-half-block:nth-of-type(2) {
     padding: 5% 5%;
     font-size: 1.6rem;
