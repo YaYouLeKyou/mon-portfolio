@@ -109,6 +109,8 @@ textarea {
 
 /* Begin Right Contact Page */
 .direct-contact-container {
+  margin-top: auto;
+  margin-bottom: auto;
   max-width: 400px;
 }
 
@@ -134,17 +136,21 @@ textarea {
   color: #bbb;
 }
 
+
 .place {
   margin-left: 62px;
+  margin-top: -27px;
 
 }
 
 .phone {
   margin-left: 56px;
+  margin-top: -27px;
 }
 
 .gmail {
   margin-left: 53px;
+  margin-top: -27px;
 }
 
 .contact-text a {

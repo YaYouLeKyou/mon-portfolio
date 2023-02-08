@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: #000;
   background-image: url(../images/space2.jpg);
@@ -18,10 +19,23 @@ h1 {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.644);
   text-align: center;
-  margin: 2rem 0;
+  margin: 3.5rem 0;
   z-index: 1000;
-  
+
 }
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.644);
+  text-align: center;
+  margin: 3.5rem 0;
+  z-index: 1000;
+  visibility: hidden;
+
+}
+
 
 .wrapper {
   position: absolute;
@@ -102,6 +116,7 @@ h1 {
   backface-visibility: hidden;
   border-radius: 10px;
 }
+
 .container:hover .front,
 .container:hover .back {
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -221,6 +236,7 @@ h1 {
   z-index: 40000;
 
 }
+
 .toggle-btn {
   position: absolute;
   top: 30px;
@@ -229,6 +245,7 @@ h1 {
   height: 50px;
   width: 50px;
 }
+
 .toggle-btn span {
   width: 60px;
   height: 10px;
@@ -238,6 +255,7 @@ h1 {
   margin-top: 4px;
   transition: 0.3s ease;
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -247,7 +265,7 @@ a {
 li {
   color: #292929;
   list-style: none;
- 
+
   cursor: pointer;
   padding-left: 5px;
 
@@ -261,26 +279,33 @@ li:hover {
 #side-bar.active {
   left: 0;
 }
+
 #side-bar.active .toggle-btn {
   top: 2.8rem;
   left: 235px;
 }
+
 #side-bar.active span {
   position: absolute;
 }
+
 #side-bar.active span:nth-child(1) {
   transform: rotate(45deg);
   top: 0px;
 }
+
 #side-bar.active span:nth-child(2) {
   opacity: 0;
 }
+
 #side-bar.active span:nth-child(3) {
   transform: rotate(-45deg);
 }
-#side-bar.active ~ .content {
+
+#side-bar.active~.content {
   opacity: 0.3;
 }
+
 #space {
   /* position: fixed; */
   position: fixed;
@@ -288,6 +313,7 @@ li:hover {
   width: 100vw;
   z-index: -1;
 }
+
 /* cursor */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
@@ -324,6 +350,7 @@ li:hover {
   opacity: 0.8;
   transform: scale(0.7);
 }
+
 #apple,
 #twitter,
 #github,
@@ -344,12 +371,15 @@ li:hover {
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
     0 0 200px #0072ff;
 }
+
 #twitter {
   animation-delay: 0.3s;
 }
+
 #facebook {
   animation-delay: 0.7s;
 }
+
 #github {
   animation-delay: 0.1s;
 }
@@ -358,10 +388,12 @@ li:hover {
   from {
     filter: hue-rotate(0deg);
   }
+
   to {
     filter: hue-rotate(360deg);
   }
 }
+
 input {
   border-radius: 50%;
   height: 100px;
@@ -372,23 +404,32 @@ input {
   background-color: rgba(8, 6, 85, 0.664);
   transition: 0.5s;
 }
+
 input:hover {
   background-color: rgba(255, 255, 255, 0.425);
   transition: 0.5s;
 }
+
 @media screen and (max-width: 700px) {
+  h2 {
+    visibility: visible;
+  }
+
   .container-social {
     transform: scale(0.3);
   }
+
   .back {
     font-size: 1.2rem;
   }
+
   input {
     height: 70px;
     width: 70px;
     font-size: 0.7rem;
   }
-  h1{
+
+  h1 {
     font-size: 3rem;
   }
 }
