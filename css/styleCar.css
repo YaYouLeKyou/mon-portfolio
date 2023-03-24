@@ -51,16 +51,14 @@ body {
   text-align: center;
   -webkit-box-shadow: 0 0 8px #fff;
   box-shadow: 0 0 8px #fff;
-  -webkit-box-reflect: below 10px
-    linear-gradient(transparent, transparent, #0005);
+  -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0005);
 }
 
 #drag-container img:hover,
 #drag-container video:hover {
   -webkit-box-shadow: 0 0 15px #fffd;
   box-shadow: 0 0 885px #fffd;
-  -webkit-box-reflect: below 10px
-    linear-gradient(transparent, transparent, #0007);
+  -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0007);
 }
 
 #drag-container p {
@@ -82,12 +80,10 @@ body {
 
   -webkit-transform: translate(-50%, -50%) rotateX(90deg);
   transform: translate(-50%, -50%) rotateX(90deg);
-  background: -webkit-radial-gradient(
-    center center,
-    farthest-side,
-    #9993,
-    transparent
-  );
+  background: -webkit-radial-gradient(center center,
+      farthest-side,
+      #9993,
+      transparent);
 }
 
 #music-container {
@@ -101,6 +97,7 @@ body {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
   }
+
   to {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
@@ -112,26 +109,31 @@ body {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
   }
+
   to {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
   }
 }
+
 @-webkit-keyframes spinRevert {
   from {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
   }
+
   to {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
   }
 }
+
 @keyframes spinRevert {
   from {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
   }
+
   to {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
@@ -148,9 +150,11 @@ a {
   text-decoration: none;
   font-size: 4rem;
 }
+
 img {
   cursor: pointer;
 }
+
 /* ***************sidebar********************* */
 
 #side-bar {
@@ -163,6 +167,7 @@ img {
   z-index: 40000;
 
 }
+
 .toggle-btn {
   position: absolute;
   top: 30px;
@@ -171,6 +176,7 @@ img {
   height: 50px;
   width: 50px;
 }
+
 .toggle-btn span {
   width: 60px;
   height: 10px;
@@ -197,26 +203,33 @@ li:hover {
 #side-bar.active {
   left: 0;
 }
+
 #side-bar.active .toggle-btn {
   top: 2.8rem;
   left: 235px;
 }
+
 #side-bar.active span {
   position: absolute;
 }
+
 #side-bar.active span:nth-child(1) {
   transform: rotate(45deg);
   top: 0px;
 }
+
 #side-bar.active span:nth-child(2) {
   opacity: 0;
 }
+
 #side-bar.active span:nth-child(3) {
   transform: rotate(-45deg);
 }
-#side-bar.active ~ .content {
+
+#side-bar.active~.content {
   opacity: 0.3;
 }
+
 /* ******************computer********************* */
 
 ::selection {
@@ -230,6 +243,7 @@ li:hover {
   position: relative;
   margin-bottom: 10px;
 }
+
 .visual2:before,
 .visual2:after {
   content: '';
@@ -247,6 +261,7 @@ li:hover {
 .visual2:before {
   animation: spin 2s infinite linear;
 }
+
 .visual2:after {
   animation: spin 4s infinite linear alternate;
 }
@@ -322,13 +337,11 @@ img {
   );
 } */
 .active2 {
-  background: repeating-linear-gradient(
-    0deg,
-    #0c0,
-    #0c0 1px,
-    #050 1px,
-    #050 2px
-  );
+  background: repeating-linear-gradient(0deg,
+      #0c0,
+      #0c0 1px,
+      #050 1px,
+      #050 2px);
 }
 
 .screen {
@@ -349,13 +362,11 @@ img {
   color: #0f0;
   font-size: 16px;
   animation: twitch;
-  background: repeating-linear-gradient(
-    0deg,
-    #000,
-    #000 2px,
-    #020 2px,
-    #020 4px
-  );
+  background: repeating-linear-gradient(0deg,
+      #000,
+      #000 2px,
+      #020 2px,
+      #020 4px);
 }
 
 button {
@@ -371,7 +382,7 @@ button {
   outline: none;
 
   border: 1px solid #0f0;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5);
+  /* box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5); */
   cursor: pointer;
 }
 
@@ -406,13 +417,11 @@ button:visited {
   background-color: #000;
   box-shadow: 0 0 80px #0a0, inset 0 0 150px 50px #090;
 
-  background: repeating-linear-gradient(
-    0deg,
-    #050,
-    #050 1px,
-    #010 1px,
-    #010 2px
-  );
+  background: repeating-linear-gradient(0deg,
+      #050,
+      #050 1px,
+      #010 1px,
+      #010 2px);
 
   position: absolute;
   top: 0;
@@ -483,6 +492,7 @@ button:visited {
   0% {
     opacity: 0.8;
   }
+
   100% {
     opacity: 1;
   }
@@ -492,6 +502,7 @@ button:visited {
   0% {
     height: 0;
   }
+
   100% {
     height: auto;
   }
@@ -501,14 +512,15 @@ button:visited {
   0% {
     transform: rotate3d(0, 1, 1, 360deg);
   }
+
   100% {
     transform: rotate3d(360deg);
   }
 }
 
 @keyframes scan {
-  0% {
-  }
+  0% {}
+
   100% {
     height: 100%;
     width: 100%;
@@ -519,15 +531,19 @@ button:visited {
   0% {
     padding: 20px;
   }
+
   50% {
     padding: 20px;
   }
+
   51% {
     padding: 19px;
   }
+
   50% {
     padding: 20px;
   }
+
   100% {
     padding: 20px;
   }
@@ -537,28 +553,35 @@ button:visited {
   body {
     overflow: visible;
   }
+
   .screen {
     display: block;
   }
+
   .buttonGroup {
     width: auto;
     padding: 0 10px;
   }
+
   .instruction {
     visibility: hidden;
     display: none;
   }
 }
+
 @media only screen and (max-width: 650px) {
+
   #drag-container,
   #spin-container {
     display: none;
   }
+
   .screen {
     width: 80%;
     font-size: 0.7rem;
   }
 }
+
 /* galaxy */
 
 .galaxy {
@@ -576,6 +599,7 @@ button:visited {
   border-radius: 50%;
   z-index: -1;
 }
+
 /* mobile */
 
 @media screen and (max-width: 700px) {
@@ -584,16 +608,19 @@ button:visited {
     padding: 0%;
     overflow: visible;
   }
+
   .mobile {
     position: absolute;
     top: 400px;
     visibility: visible !important;
     overflow: visible !important;
   }
+
   .screen {
     visibility: hidden;
     display: none;
   }
+
   #side-bar {
     position: absolute;
     top: 0%;
@@ -602,13 +629,16 @@ button:visited {
     left: 0;
     text-align: center;
   }
+
   #side-bar a {
     font-size: 3rem;
     text-align: center;
   }
+
   .wrapper {
     top: 200px;
   }
+
   .toggle-btn {
     visibility: hidden;
   }
@@ -618,10 +648,12 @@ button:visited {
   body {
     overflow: hidden;
   }
+
   .mobile {
     visibility: hidden !important;
     display: none;
   }
+
   .screen {
     visibility: hidden;
   }
@@ -712,6 +744,7 @@ h1 {
   backface-visibility: hidden;
   border-radius: 10px;
 }
+
 .container:hover .front,
 .container:hover .back {
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -818,6 +851,7 @@ h1 {
     width: 200px;
   }
 }
+
 /* cursor */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
@@ -842,6 +876,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.493);
   }
 }
+
 .instruction {
   position: absolute;
   display: flex;

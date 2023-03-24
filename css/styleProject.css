@@ -433,3 +433,11 @@ input:hover {
     font-size: 3rem;
   }
 }
+
+.w50 {
+  width: 50px;
+}
+
+.w100 {
+  width: 100px;
+}

@@ -468,7 +468,7 @@ hr {
 
 
 }
-}
+
 
 .certif {
   width: 100vw;
@@ -516,4 +516,8 @@ li {
 
 ul {
   padding: 0;
+}
+
+img {
+  width: 50px;
 }

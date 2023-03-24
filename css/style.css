@@ -184,7 +184,7 @@ blockquote p {
   margin-left: 50%;
   transform: translate(-50%);
   opacity: 0.5;
-  filter: blur(0.2);
+
 
 }
 
@@ -1371,4 +1371,22 @@ li #contact {
     visibility: hidden;
 
   }
+}
+
+.w80 {
+  width: 80px;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.w135 {
+  width: 135px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+
 }
