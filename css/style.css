@@ -687,6 +687,14 @@ Main Components
 .cd-section:nth-of-type(4) .cd-half-block:first-of-type {
   background-image: url('../images/yayou.png');
   background-size: contain;
+  background-size: 50vh;
+}
+
+@media screen and (max-width:1070px) {
+  .cd-section:nth-of-type(4) .cd-half-block:first-of-type {
+
+    background-size: 25vh;
+  }
 }
 
 i {
@@ -1389,4 +1397,10 @@ h2 {
   text-align: center;
   margin-top: 40px;
 
+}
+
+@media screen and (max-width:700px) {
+  h2 {
+    font-size: 40px;
+  }
 }
